@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Wild West — Theme",
+  "version": "1.0.0",
+  "description": "Turns Chrome into weathered leather and sun-bleached parchment. A dusty frontier look for the whole browser.",
+  "theme": {
+    "colors": {
+      "frame": [74, 53, 32],
+      "frame_inactive": [92, 72, 48],
+      "toolbar": [210, 184, 135],
+      "tab_text": [46, 33, 20],
+      "tab_background_text": [206, 182, 138],
+      "bookmark_text": [46, 33, 20],
+      "ntp_background": [214, 190, 145],
+      "ntp_text": [46, 33, 20],
+      "ntp_link": [138, 51, 36],
+      "button_background": [210, 184, 135],
+      "omnibox_background": [232, 216, 181],
+      "omnibox_text": [46, 33, 20]
+    },
+    "tints": {
+      "buttons": [0.083, 0.55, 0.32]
+    },
+    "properties": {
+      "ntp_logo_alternate": 0,
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
