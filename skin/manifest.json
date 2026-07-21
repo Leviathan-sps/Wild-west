@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Wild West — Skin",
+  "version": "1.0.0",
+  "description": "A frontier new-tab page plus a weathered sepia wash over every site. Toggle the dust on or off.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["overlay/overlay.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab/newtab.html"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Wild West — dust settings"
+  }
+}
