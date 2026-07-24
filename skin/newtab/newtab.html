@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="newtab.css" />
+  </head>
+  <body>
+    <div class="sky"></div>
+
+    <main>
+      <p class="brand">★ Frontier Territory ★</p>
+      <h1 id="clock">--:--</h1>
+      <p id="greeting" class="greeting">Howdy, partner</p>
+
+      <form id="search" autocomplete="off">
+        <input id="q" type="text" placeholder="Search the frontier…" autofocus />
+        <button type="submit" aria-label="ride out">→</button>
+      </form>
+
+      <nav id="trails" class="trails"></nav>
+    </main>
+
+    <!-- desert skyline, drawn once at the bottom -->
+    <svg class="skyline" viewBox="0 0 1200 220" preserveAspectRatio="none" aria-hidden="true">
+      <path class="dune" d="M0,180 C200,140 380,190 560,165 C760,138 980,190 1200,155 L1200,220 L0,220 Z" />
+      <g class="cactus" transform="translate(180,120)">
+        <rect x="-7" y="0" width="14" height="70" rx="7" />
+        <rect x="-30" y="18" width="12" height="34" rx="6" />
+        <rect x="-30" y="18" width="30" height="12" rx="6" />
+        <rect x="18" y="8" width="12" height="40" rx="6" />
+        <rect x="0" y="8" width="30" height="12" rx="6" />
+      </g>
+      <g class="cactus" transform="translate(1000,140) scale(.8)">
+        <rect x="-7" y="0" width="14" height="70" rx="7" />
+        <rect x="18" y="14" width="12" height="34" rx="6" />
+        <rect x="0" y="14" width="30" height="12" rx="6" />
+      </g>
+    </svg>
+
+    <p id="telegram" class="telegram"></p>
+    <script src="newtab.js"></script>
+  </body>
+</html>
