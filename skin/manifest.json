@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Wild West — Skin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A frontier new-tab page plus a weathered sepia wash over every site. Toggle the dust on or off.",
   "permissions": ["storage"],
   "background": {

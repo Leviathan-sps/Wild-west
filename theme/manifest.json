@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Wild West — Theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turns Chrome into weathered leather and sun-bleached parchment. A dusty frontier look for the whole browser.",
   "theme": {
     "colors": {
